@@ -9,7 +9,7 @@ This script create a basic web application
 Name: CreateWebApp
 Author: JK AzureScripts
 Version: 1.0
-Dated Created: 
+Dated Created: Jan 2022
 
 .EXAMPLE
 
@@ -38,12 +38,6 @@ Dated Created:
 
 #Opens a separate login window
 Login-AzAccount
-
-#Variable for resource group, Web app service plan, Website name, and location of webpage
-#$RgName = 'JK-RG'
-#$Webapp = 'JkWebApp'
-#$WebSiteName = 'JKWebpage'
-#$Location = 'East US'
 
 #Create resource group
 New-AzResourceGroup -Name $RgName -Location $Location
